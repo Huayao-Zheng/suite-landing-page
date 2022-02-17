@@ -22,7 +22,7 @@ const button = {
 
 export const RequestButton = ({ buttonStyle }) => {
   return (
-    <div className={`${button[buttonStyle]} font-bold rounded-md ease-linear duration-150 cursor-pointer`}>
+    <div className={`${button[buttonStyle]} font-bold rounded-md transition-all  cursor-pointer`}>
       Request Beta Access
     </div>
   );
