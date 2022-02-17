@@ -3,8 +3,8 @@ import { Header } from './components/Header';
 
 export const App = () => {
   return (
-    <div className="font-epilogue bg-cream-white-123 min-h-screen text-dark-blue-123 ">
+    <main className="font-epilogue bg-cream-white-123 min-h-screen text-dark-blue-123 ">
       <Header />
-    </div>
+    </main>
   );
 };

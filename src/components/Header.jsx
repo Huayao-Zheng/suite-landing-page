@@ -1,12 +1,11 @@
 import React from 'react';
+import { RequestButton } from './RequestButton';
 
 export const Header = () => {
   return (
-    <header className="flex justify-between items-center px-4 pt-6 ">
+    <header className="flex justify-between items-center px-4 md:px-10 pt-6 md:pt-10">
       <div className="font-bold text-[32px] leading-[32px] tracking-[-0.44px]">suite</div>
-      <div className="font-bold text-[14px] leading-[24px] tracking-[-0.14px] px-4 py-3 border-[1px] border-solid border-dark-blue-123 rounded-md hover:bg-dark-blue-123 hover:text-cream-white-123 ease-linear duration-150 cursor-pointer">
-        Request Beta Access
-      </div>
+      <RequestButton buttonStyle="secondary" />
     </header>
   );
 };
