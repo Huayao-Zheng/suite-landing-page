@@ -3,13 +3,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-fig': '#172339',
-        'dark-blue-fig': '#49566D',
-        'white-gray-fig': '#F3EDE7',
-        'white-fig': '#FAF8F6',
-        'purple-blue-fig': '#A060FF',
-        'purple-fig': '#CB30E3',
-        'orange-fig': '#FFA84E',
+        'dark-blue-123': '#172339',
+        'grey-123': '#49566D',
+        'cream-123': '#F3EDE7',
+        'cream-white-123': '#FAF8F6',
+        'purple-blue-123': '#A060FF',
+        'purple-123': '#CB30E3',
+        'orange-123': '#FFA84E',
       },
       fontFamily: {
         epilogue: ['Epilogue', 'sans-serif'],
