@@ -1,7 +1,7 @@
 import React from 'react';
 
 const button = {
-  primary: ['bg-red'].join(' '),
+  primary: [''].join(' '),
   secondary: [
     'text-[14px]',
     'md:text-[16px]',
@@ -20,10 +20,10 @@ const button = {
   ].join(' '),
 };
 
-export const RequestButton = ({ buttonStyle }) => {
+export const RequestButton = ({ buttonStyle, customStyle = '' }) => {
   return (
-    <div className={`${button[buttonStyle]} font-bold rounded-md transition-all  cursor-pointer`}>
+    <button className={`${button[buttonStyle]} ${customStyle} font-bold rounded-md transition-all`}>
       Request Beta Access
-    </div>
+    </button>
   );
 };
