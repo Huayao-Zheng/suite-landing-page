@@ -1,7 +1,19 @@
 import React from 'react';
 
 const button = {
-  primary: [''].join(' '),
+  primary: [
+    'hover:bg-gradient-to-r',
+    'from-purple-blue-123',
+    'via-purple-123',
+    'to-orange-123',
+    'bg-dark-blue-123',
+    'text-cream-white-123',
+    'text-[18px]',
+    'px-8',
+    'py-[15px]',
+    'tracking-[-0.18px]',
+  ].join(' '),
+
   secondary: [
     'text-[14px]',
     'md:text-[16px]',
@@ -21,17 +33,6 @@ const button = {
 };
 
 export const RequestButton = ({ buttonStyle, customStyle = '' }) => {
-  if (buttonStyle === 'primary') {
-    return (
-      <button
-        className={`bg-dark-blue-123 text-cream-white-123 text-[18px] px-8 py-[15px]
-         font-bold rounded-md transition-all`}
-      >
-        Request Beta Access
-      </button>
-    );
-  }
-
   return (
     <button className={`${button[buttonStyle]} ${customStyle} font-bold rounded-md transition-all`}>
       Request Beta Access
