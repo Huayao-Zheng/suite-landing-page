@@ -21,7 +21,7 @@ export const HeroIntro = () => {
       <p className="text-grey-123 leading-[28px] tracking-[-0.09px] max-w-[350px]">
         Our marketing and sales automations help you scale your outreach to get more leads for your company.
       </p>
-
+      {/*  */}
       <RequestButton buttonStyle="primary" customStyle="" />
     </div>
   );
