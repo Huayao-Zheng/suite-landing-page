@@ -6,7 +6,7 @@ import { StatesList } from '../components/StatesList';
 
 export const Hero = () => {
   return (
-    <section id="hero" className="myContainer pt-[56px] md:pt-[80px] xl:pt-[67px] md:grid">
+    <section id="hero" className="myContainer pt-[56px] md:pt-[80px] xl:pt-[67px] grid gap-8">
       <HeroIntro />
       <HeroImage />
       <StatesList />
