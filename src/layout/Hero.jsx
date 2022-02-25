@@ -9,7 +9,8 @@ export const Hero = () => {
     <section
       id="hero"
       className="myContainer grid- pt-[56px] md:pt-[80px] xl:pt-[67px] 
-    grid gap-8"
+    grid gap-8
+    md:grid-cols-[1fr_77px_281px] md:grid-rows-[1fr_83px]"
     >
       {/* layout the grid template and pass the grid-itme classes through below's components */}
       <HeroIntro />
