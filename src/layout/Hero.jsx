@@ -9,13 +9,13 @@ export const Hero = () => {
     <section
       id="hero"
       className="myContainer grid- pt-[56px] md:pt-[80px] xl:pt-[67px] 
-    grid gap-8
-    md:grid-cols-[1fr_77px_281px] md:grid-rows-[1fr_83px]"
+      grid gap-8
+      md:grid-cols-[408px_77px_204px] md:grid-rows-[1fr_83px] md:gap-0"
     >
       {/* layout the grid template and pass the grid-itme classes through below's components */}
-      <HeroIntro />
-      <HeroImage />
-      <StatesList />
+      <HeroIntro className="md:row-span-1 md:col-start-1 md:col-end-3" />
+      <HeroImage className="" />
+      <StatesList className="" />
     </section>
   );
 };
