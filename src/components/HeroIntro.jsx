@@ -6,7 +6,7 @@ import CurvedLine from '../images/pattern-curved-line-1.svg';
 
 export const HeroIntro = ({ className = '' }) => {
   return (
-    <div className={`flex flex-col items-start gap-[32px] mx-auto md:mx-0 md:pt-[43px] ${className}`}>
+    <div className={`flex flex-col items-start gap-[32px] mx-auto md:mx-0 md:pt-[43px] md:gap-[40px] ${className}`}>
       <div
         className="text-[38px] leading-[44px] tracking-[-0.53px] 
         md:text-[56px] md:leading-[64px] md:tracking-[-0.78px] 

@@ -9,12 +9,13 @@ export const Hero = () => {
     <section
       id="hero"
       className="myContainer grid- pt-[56px] md:pt-[80px] xl:pt-[67px] 
-      grid gap-8
+      grid gap-8 
       md:grid-cols-[408px_77px_204px] md:grid-rows-[1fr_83px] md:gap-0 md:place-content-center
+      md:gap-y-[88px]
       "
     >
-      <HeroIntro className="md:row-span-1 md:col-start-1 md:col-end-3" />
-      <HeroImage className="" />
+      <HeroIntro className="md:row-[1/2] md:col-[1/3]" />
+      <HeroImage className="md:row-[1/2] md:col-[2/4]" />
       <StatesList className="" />
     </section>
   );
