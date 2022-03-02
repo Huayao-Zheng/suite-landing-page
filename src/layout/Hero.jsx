@@ -16,7 +16,7 @@ export const Hero = () => {
     >
       <HeroIntro className="md:row-[1/2] md:col-[1/3]" />
       <HeroImage className="md:row-[1/2] md:col-[2/4]" />
-      <StatesList className="" />
+      <StatesList className="md:col-span-full" />
     </section>
   );
 };
