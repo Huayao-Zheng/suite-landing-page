@@ -9,9 +9,9 @@ export const Hero = () => {
     <section
       id="hero"
       className="myContainer grid- pt-[56px] md:pt-[80px] xl:pt-[67px] 
-      grid gap-8 
+      grid gap-8
       md:grid-cols-[408px_77px_204px] md:grid-rows-[1fr_83px] md:gap-0 md:place-content-center md:gap-y-[88px]
-      lg:grid-cols-[minmax(408px,_auto)_77px_minmax(204px,_273px)_1fr] lg:grid-rows-1
+      lg:grid-cols-[minmax(408px,_auto)_minmax(77px,_146px)_204px_auto] lg:grid-rows-1 xl:place-content-start
       "
     >
       <HeroIntro className="md:row-[1/2] md:col-[1/3]" />

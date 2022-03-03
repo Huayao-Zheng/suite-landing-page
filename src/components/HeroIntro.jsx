@@ -29,7 +29,7 @@ export const HeroIntro = ({ className = '' }) => {
         </p>
       </div>
 
-      <p className="text-grey-123 leading-[28px] tracking-[-0.09px] max-w-[350px]">
+      <p className="text-grey-123 leading-[28px] tracking-[-0.09px] max-w-[350px] lg:text-[18px] lg:leading-[32px] lg:tracking-[-0.1px]">
         Our marketing and sales automations help you scale your outreach to get more leads for your company.
       </p>
 

@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .myContainer {
-  @apply max-w-[1280px] mx-auto px-4 md:px-10 xl:px-[90px] transition-all;
+  @apply max-w-[1290px] mx-auto px-4 md:px-10 xl:px-[90px] transition-all;
 }
