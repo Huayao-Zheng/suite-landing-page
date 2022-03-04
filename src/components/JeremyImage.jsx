@@ -4,7 +4,11 @@ import SmallJeremy from '../images/image-jeremy-small.png';
 import BigJeremy from '../images/image-jeremy-large.png';
 import BgBlur from '../images/pattern-blur.svg';
 
-export const JeremyImage = ({ isDesktop }) => {
+import { useMediaQuery } from '../useMediaQuery';
+
+export const JeremyImage = () => {
+  const isDesktop = useMediaQuery('(min-width: 1024px)');
+
   return (
     <div
       style={{ backgroundImage: `url(${BgBlur})` }}
